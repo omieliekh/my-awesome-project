@@ -7,3 +7,4 @@ console.log('Hello Git');
 // another line
 // another line
 // another line
+// another line
