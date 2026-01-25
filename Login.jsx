@@ -1,4 +1,10 @@
+const API = 'http://localhost:8080/login';
+
 export default function Login() {
+  useEffect(() => {
+    fetch(API).then(res => res.json()).then(data => console.log(data));
+  }, []);
+
   return (
     <>
       <div>Login Page</div>
